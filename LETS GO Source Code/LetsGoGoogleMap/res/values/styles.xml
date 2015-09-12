@@ -1,0 +1,73 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    
+    
+    <style name="reset_btn" parent="login_btn">
+        <item name="android:layout_width">160dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:layout_below">@+id/textView3</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:textSize">13dp</item>
+    </style>
+    <style name="no_btn">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:background">#00ffffff</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_marginLeft">5dp</item>
+    </style>
+    
+    <style name="editTextButton">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignTop">@+id/linearLayout1</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:background">@drawable/edit_back</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:height">40dp</item>
+    </style>
+    <style name="reg_btn">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">2</item>
+        <item name="android:layout_marginRight">20dp</item>
+        <item name="android:background">@drawable/btn_back</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_marginLeft">10dp</item>
+    </style>
+
+
+    <style name="login_btn">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:layout_weight">2.50</item>
+        <item name="android:background">@drawable/btn_back_login</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">#fff</item>
+    </style>
+    
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+</resources>
