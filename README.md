@@ -1,2 +1,2 @@
-# LETS-GO-ANDROID
-an android app which is to track friends navigation, there estimate movement
+# Lets Go
+An android app which is to create event and calculate their arrival estimation.
